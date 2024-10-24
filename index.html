@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet Jenkins</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Pour les styles CSS, si nécessaire -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Projet Jenkins</h1>
+        <nav>
+            <ul>
+                <li><a href="#jenkins">Jenkins</a></li>
+                <li><a href="#esclave">Esclave Jenkins</a></li>
+                <li><a href="#serveur-apache">Serveur Apache</a></li>
+                <li><a href="#backup">Backup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="jenkins">
+            <h2>Serveur Jenkins</h2>
+            <p>Ce serveur gère l'intégration continue et le déploiement.</p>
+            <p>Accédez à Jenkins <a href="http://<adresse_ip_machine_1>:8080">ici</a>.</p>
+        </section>
+
+        <section id="esclave">
+            <h2>Esclave Jenkins</h2>
+            <p>Ce nœud esclave exécute les tâches de build et de déploiement.</p>
+        </section>
+
+        <section id="serveur-apache">
+            <h2>Serveur Apache</h2>
+            <p>Ce serveur gère les backups et l'accès aux fichiers.</p>
+            <p>Visitez notre page de backups <a href="http://<adresse_ip_machine_3>">ici</a>.</p>
+        </section>
+
+        <section id="backup">
+            <h2>Backup</h2>
+            <p>Ce processus gère les backups de notre dépôt Git.</p>
+            <p>Consultez les fichiers de backup <a href="/backups/">ici</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Projet Jenkins. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
